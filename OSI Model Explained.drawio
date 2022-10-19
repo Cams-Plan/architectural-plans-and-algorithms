@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T21:08:58.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="F49NZSLJFPw1qptzEbrd" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-19T16:00:58.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="z3RFcCTf_zn5qOVOrHqq" version="20.4.0" type="github">
   <diagram id="JPbicAEQHTox4qRCIqny" name="Page-1">
-    <mxGraphModel dx="1849" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1645" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,20 +61,23 @@
         <mxCell id="TsHt6xNvjq6FOF1HK5rZ-21" value="&lt;u&gt;SESSION (Ports,SCP,SDP,RPC):&lt;br&gt;&lt;/u&gt;unique established connections between servers or to remote clients are maintained and synched, unestablished connections are stopped with errors sent back" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="320" width="312" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TsHt6xNvjq6FOF1HK5rZ-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="495" width="20" height="235" as="geometry" />
+        <mxCell id="TsHt6xNvjq6FOF1HK5rZ-24" value="&lt;u&gt;TRANSPORT (TCP,UDP)&lt;br&gt;&lt;/u&gt;Data transfer protocol chosen. Choice is made based on speed or data integrity/accuracy. Data is broken into segments (TCP) or datagrams (UDP) for easier transportation." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="410" width="312" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="TsHt6xNvjq6FOF1HK5rZ-24" value="&lt;u&gt;TRANSPORT (TCP,UDP)&lt;br&gt;&lt;/u&gt;Choosing the data protocol for data transfer. choice is made based on speed requirements, importance of packet delivery" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="410" width="312" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TsHt6xNvjq6FOF1HK5rZ-25" value="&lt;u&gt;NETWORK (IPv4/6,&lt;br&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="TsHt6xNvjq6FOF1HK5rZ-25" value="&lt;u&gt;NETWORK (IPv4/6,&lt;/u&gt;&lt;br&gt;Takes the IP address from a page/app and figures out the destination and best route to take to retrieve the data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="498" y="490" width="312" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TsHt6xNvjq6FOF1HK5rZ-26" value="&lt;u&gt;DATA LINK&lt;br&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="TsHt6xNvjq6FOF1HK5rZ-26" value="&lt;u&gt;DATA LINK&lt;/u&gt;&lt;br&gt;the physical data route is identified using the MAC address on a NIC. when sending data, it presents it in a trasmittable format. when recieving data it checks for corruption in transit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-38" y="580" width="312" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TsHt6xNvjq6FOF1HK5rZ-27" value="&lt;u&gt;PHYSICAL&lt;br&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="498" y="675" width="312" height="60" as="geometry" />
+        <mxCell id="TsHt6xNvjq6FOF1HK5rZ-27" value="&lt;u&gt;PHYSICAL&lt;/u&gt;&lt;br&gt;The physical hardware of the computer that is responsible for converting and reverting data and signal data into binary for outgoing transfer through Wi-Fi or Ethernet and beyond." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="675" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TsHt6xNvjq6FOF1HK5rZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;strokeColor=#FF3333;" edge="1" parent="1" source="TsHt6xNvjq6FOF1HK5rZ-31" target="TsHt6xNvjq6FOF1HK5rZ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TsHt6xNvjq6FOF1HK5rZ-31" value="TCP =&amp;nbsp; uses error control, flow control, and congestion&amp;nbsp;control to track data packets &amp;amp;&amp;nbsp;check for errors and duplication, or&amp;nbsp;resend failed deliveries" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="425" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
