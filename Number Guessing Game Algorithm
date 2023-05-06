@@ -1,49 +1,206 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T15:42:27.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.5" etag="ksnC9VejOWuCJ6rbaFr8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T16:56:04.452Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ZNUNXHrd8enIEVbYRceD" version="21.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1223" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-1" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="152" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lamp doesn&#39;t work" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+          <mxGeometry x="160" y="10" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="R8bQNL3GhCWQNOOUQ1cS-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Hard or easy difficulty?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="170" y="192" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="R8bQNL3GhCWQNOOUQ1cS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Present the amount of attempts to the player" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="648" y="290" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-1" value="Present the opening game statement &quot;I&#39;m thinking of a number...&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="80" width="140" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="R8bQNL3GhCWQNOOUQ1cS-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="151" as="sourcePoint" />
+            <mxPoint x="300" y="232" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-3" value="Hard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-4" value="5 attempts allowed" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="653" y="208" width="120" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-8" target="R8bQNL3GhCWQNOOUQ1cS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-8" value="Present hint rules:&lt;br&gt;&quot;After at least two attempts, you can ask for a hint&quot;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="653" y="390" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-12" target="R8bQNL3GhCWQNOOUQ1cS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-12" value="Player inputs guess" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="653" y="489" width="120" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-14" target="R8bQNL3GhCWQNOOUQ1cS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-14" target="R8bQNL3GhCWQNOOUQ1cS-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-14" value="Is hint allowed?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="655.5" y="618" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-17" target="R8bQNL3GhCWQNOOUQ1cS-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-17" value="Was a hint used?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="828" y="618" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-19" target="R8bQNL3GhCWQNOOUQ1cS-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-19" value="Provide hint" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="828" y="548" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-29" target="R8bQNL3GhCWQNOOUQ1cS-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="828" y="518" as="sourcePoint" />
+            <mxPoint x="898" y="558" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Lamp&lt;br&gt;plugged in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-22" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="773" y="630" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="190" width="120" height="40" as="geometry" />
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-24" target="R8bQNL3GhCWQNOOUQ1cS-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-24" value="Was the guess correct" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="655.5" y="778" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-26" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="712" y="698" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-27" value="Remove and attempt and add to the hint allowance counter" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="848" y="790" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-29" value="Reset hint allowance counter" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="828" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="888" y="735" as="sourcePoint" />
+            <mxPoint x="718" y="735" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="888" y="735" />
+              <mxPoint x="793" y="735" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-36" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="888" y="698" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-37" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="888" y="590" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-38" target="R8bQNL3GhCWQNOOUQ1cS-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-38" value="10 Attempts allowed" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-40" value="Easy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="272" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-42" target="R8bQNL3GhCWQNOOUQ1cS-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-42" value="Present the amount of attempts to the player" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="290" width="100" height="80" as="geometry" />
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-44" value="Present hint rules:&lt;br&gt;&amp;nbsp;&quot;After at least three attempts, you can ask for a hint, 3 max&quot;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="525" width="140" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="430" width="120" height="40" as="geometry" />
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-49" target="R8bQNL3GhCWQNOOUQ1cS-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-49" value="Player inputs guess" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="640" width="120" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-52" target="R8bQNL3GhCWQNOOUQ1cS-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-52" target="R8bQNL3GhCWQNOOUQ1cS-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-52" value="Is hint allowed?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="162.5" y="769" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-54" target="R8bQNL3GhCWQNOOUQ1cS-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-54" value="Was a hint used?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="335" y="769" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-56" target="R8bQNL3GhCWQNOOUQ1cS-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-56" value="Provide hint" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="335" y="699" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-63" target="R8bQNL3GhCWQNOOUQ1cS-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="669" as="sourcePoint" />
+            <mxPoint x="405" y="709" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-58" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="781" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-60" target="R8bQNL3GhCWQNOOUQ1cS-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-60" value="Was the guess correct" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="162.5" y="929" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-61" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="219" y="849" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-62" value="Remove and attempt and add to the hint allowance counter" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355" y="941" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-63" value="Reset hint allowance counter" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="335" y="641" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="R8bQNL3GhCWQNOOUQ1cS-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="886" as="sourcePoint" />
+            <mxPoint x="225" y="886" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="886" />
+              <mxPoint x="300" y="886" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-65" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="395" y="849" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R8bQNL3GhCWQNOOUQ1cS-66" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="395" y="741" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
